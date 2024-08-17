@@ -2,7 +2,7 @@ package com.example.tms.route;
 
 public class Route {
     private double distance;
-    private int duration; // in minutes
+    private int duration; 
 
     public double getDistance() {
         return distance;
