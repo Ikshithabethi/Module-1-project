@@ -21,6 +21,6 @@ public class SchedulerTest {
     public void testCreateSchedule() {
         Schedule schedule = scheduler.createSchedule(List.of(new Delivery()), List.of(new Vehicle("Truck1")));
         assertNotNull(schedule);
-        // Add more assertions based on your implementation
+       
     }
 }
