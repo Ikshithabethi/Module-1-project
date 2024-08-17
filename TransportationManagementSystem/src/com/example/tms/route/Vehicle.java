@@ -5,9 +5,8 @@ public class Vehicle {
     }
 
 	public String getId() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
-    // Getters and setters
+
 }
