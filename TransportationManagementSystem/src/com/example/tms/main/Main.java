@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
       
         RoutePlanner planner = new RoutePlanner();
-        Location start = new Location(40.7128, -74.0060); // New York
+        Location start = new Location(40.7128, -74.0060); 
         Location end = new Location(34.0522, -118.2437);  
         Vehicle vehicle = new Vehicle("Truck1");
 
