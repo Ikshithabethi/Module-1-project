@@ -1,7 +1,7 @@
 package com.example.filter;
 
 public class HttpResponse {
-	 private int statusCode = 200; // Default to 200 OK
+	 private int statusCode = 200; 
 	    private String body;
 
 	    public int getStatusCode() {
