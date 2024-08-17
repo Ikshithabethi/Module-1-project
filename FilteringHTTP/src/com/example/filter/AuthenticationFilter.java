@@ -3,10 +3,9 @@ package com.example.filter;
 public class AuthenticationFilter implements Filter {
     @Override
     public void execute(HttpRequest request, HttpResponse response, FilterChain chain) {
-        System.out.println("Authentication Filter: Checking authentication...");
-        // Simulate authentication check
+        System.out.println("Checking authentication...");
         if (request.getHeader("Authorization") == null) {
-            response.setStatusCode(401); // Unauthorized
+            response.setStatusCode(401);
             response.setBody("Unauthorized");
             return;
         }
@@ -15,7 +14,5 @@ public class AuthenticationFilter implements Filter {
 
 	@Override
 	public void doFilter(HttpRequest request, HttpResponse response, FilterChain chain) {
-		// TODO Auto-generated method stub
-		
 	}
 }
