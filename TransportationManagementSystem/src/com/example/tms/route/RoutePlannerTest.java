@@ -15,7 +15,7 @@ public class RoutePlannerTest {
 	    @Before
 	    public void setUp() {
 	        planner = new RoutePlanner();
-	        start = new Location(40.7128, -74.0060); // New York
+	        start = new Location(40.7128, -74.0060); 
 	        end = new Location(34.0522, -118.2437);  
 	        vehicle = new Vehicle("Truck1");
 	    }
