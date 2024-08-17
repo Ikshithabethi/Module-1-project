@@ -22,7 +22,7 @@ public class HttpRequest {
     }
 
 	public String getHeader(String string) {
-		// TODO Auto-generated method stub
+		
 		return null;
 	}
 }
