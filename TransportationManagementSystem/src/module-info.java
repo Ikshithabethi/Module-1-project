@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module TransportationManagementSystem {
-	requires junit;
-}
